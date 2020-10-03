@@ -1,0 +1,245 @@
+2020-07-31 16:36:52.019  INFO 13100 --- [main] net.sample.demo.DemoApplication          : Starting DemoApplication on SARATH with PID 13100 (F:\MyAJIO\Projects\demo\target\classes started by Sarath in F:\MyAJIO\Projects\demo)
+2020-07-31 16:36:52.026  INFO 13100 --- [main] net.sample.demo.DemoApplication          : No active profile set, falling back to default profiles: default
+2020-07-31 16:36:53.164  INFO 13100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-31 16:36:53.276  INFO 13100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93ms. Found 1 JPA repository interfaces.
+2020-07-31 16:36:54.661  INFO 13100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2020-07-31 16:36:54.680  INFO 13100 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-31 16:36:54.680  INFO 13100 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-31 16:36:54.808  INFO 13100 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-31 16:36:54.809  INFO 13100 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2671 ms
+2020-07-31 16:36:55.171  INFO 13100 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-31 16:36:55.252  INFO 13100 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-07-31 16:36:55.535  INFO 13100 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-31 16:36:55.670  INFO 13100 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-31 16:36:56.476  INFO 13100 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-31 16:36:56.522  INFO 13100 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-31 16:36:57.623  INFO 13100 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-31 16:36:57.634  INFO 13100 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-31 16:36:58.296  WARN 13100 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-31 16:36:58.569  INFO 13100 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-31 16:36:58.582 DEBUG 13100 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-31 16:36:58.752 DEBUG 13100 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2020-07-31 16:36:58.793 DEBUG 13100 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-31 16:36:58.828 DEBUG 13100 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-31 16:36:59.145  INFO 13100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2020-07-31 16:36:59.149  INFO 13100 --- [main] net.sample.demo.DemoApplication          : Started DemoApplication in 7.944 seconds (JVM running for 8.713)
+2020-07-31 16:37:15.118  INFO 13100 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-31 16:37:15.119  INFO 13100 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-31 16:37:15.119 DEBUG 13100 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-07-31 16:37:15.138 DEBUG 13100 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-31 16:37:15.138  INFO 13100 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2020-07-31 16:37:15.176 DEBUG 13100 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/demo", parameters={}
+2020-07-31 16:37:15.184 DEBUG 13100 --- [http-nio-8090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.sample.demo.ProductController#welcome()
+2020-07-31 16:37:15.315 DEBUG 13100 --- [http-nio-8090-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-07-31 16:37:15.316 DEBUG 13100 --- [http-nio-8090-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Welcome"]
+2020-07-31 16:37:15.343 DEBUG 13100 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-31 16:37:46.554 DEBUG 13100 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/demo/products", parameters={}
+2020-07-31 16:37:46.555 DEBUG 13100 --- [http-nio-8090-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.sample.demo.ProductController#getAll()
+2020-07-31 16:37:47.445 DEBUG 13100 --- [http-nio-8090-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-31 16:37:47.446 DEBUG 13100 --- [http-nio-8090-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[net.sample.demo.Product@5f331a84, net.sample.demo.Product@7aa46826, net.sample.demo.Product@2151a89 (truncated)...]
+2020-07-31 16:37:47.602 DEBUG 13100 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-31 16:41:23.914 DEBUG 13100 --- [http-nio-8090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/demo/products", parameters={}
+2020-07-31 16:41:23.915 DEBUG 13100 --- [http-nio-8090-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.sample.demo.ProductController#getAll()
+2020-07-31 16:41:23.926 DEBUG 13100 --- [http-nio-8090-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-31 16:41:23.927 DEBUG 13100 --- [http-nio-8090-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [[net.sample.demo.Product@5786bec7, net.sample.demo.Product@2d4c45f5, net.sample.demo.Product@669b08f (truncated)...]
+2020-07-31 16:41:23.929 DEBUG 13100 --- [http-nio-8090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-31 16:41:40.492 DEBUG 13100 --- [http-nio-8090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/demo/products/1", parameters={}
+2020-07-31 16:41:40.494 DEBUG 13100 --- [http-nio-8090-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.sample.demo.ProductController#get(Integer)
+2020-07-31 16:41:40.648 DEBUG 13100 --- [http-nio-8090-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-31 16:41:40.649 DEBUG 13100 --- [http-nio-8090-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [net.sample.demo.Product@124122de]
+2020-07-31 16:41:40.650 DEBUG 13100 --- [http-nio-8090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-31 16:43:26.497  INFO 12408 --- [main] net.sample.demo.DemoApplication          : Starting DemoApplication on SARATH with PID 12408 (F:\MyAJIO\Projects\demo\target\classes started by Sarath in F:\MyAJIO\Projects\demo)
+2020-07-31 16:43:26.506  INFO 12408 --- [main] net.sample.demo.DemoApplication          : No active profile set, falling back to default profiles: default
+2020-07-31 16:43:27.580  INFO 12408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-31 16:43:27.666  INFO 12408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72ms. Found 1 JPA repository interfaces.
+2020-07-31 16:43:28.844  INFO 12408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2020-07-31 16:43:28.871  INFO 12408 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-31 16:43:28.871  INFO 12408 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-31 16:43:29.158  INFO 12408 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-31 16:43:29.159  INFO 12408 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2542 ms
+2020-07-31 16:43:29.775  INFO 12408 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-31 16:43:29.969  INFO 12408 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-07-31 16:43:30.317  INFO 12408 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-31 16:43:30.458  INFO 12408 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-31 16:43:31.291  INFO 12408 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-31 16:43:31.343  INFO 12408 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-31 16:43:32.508  INFO 12408 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-31 16:43:32.520  INFO 12408 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-31 16:43:33.012  WARN 12408 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-31 16:43:33.242  INFO 12408 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-31 16:43:33.258 DEBUG 12408 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-31 16:43:33.381 DEBUG 12408 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2020-07-31 16:43:33.427 DEBUG 12408 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-31 16:43:33.444 DEBUG 12408 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-31 16:43:33.674  INFO 12408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2020-07-31 16:43:33.677  INFO 12408 --- [main] net.sample.demo.DemoApplication          : Started DemoApplication in 7.918 seconds (JVM running for 8.665)
+2020-07-31 16:43:42.392  INFO 12408 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-31 16:43:42.393  INFO 12408 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-31 16:43:42.394 DEBUG 12408 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-07-31 16:43:42.420 DEBUG 12408 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-31 16:43:42.420  INFO 12408 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 27 ms
+2020-07-31 16:43:42.440 DEBUG 12408 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/demo", parameters={}
+2020-07-31 16:43:42.445 DEBUG 12408 --- [http-nio-8090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.sample.demo.ProductController#welcome()
+2020-07-31 16:43:42.514 DEBUG 12408 --- [http-nio-8090-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-07-31 16:43:42.516 DEBUG 12408 --- [http-nio-8090-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Welcome"]
+2020-07-31 16:43:42.553 DEBUG 12408 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-31 16:45:13.327 DEBUG 12408 --- [http-nio-8090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/demo/products", parameters={}
+2020-07-31 16:45:13.328 DEBUG 12408 --- [http-nio-8090-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.sample.demo.ProductController#getAll()
+2020-07-31 16:45:13.898 DEBUG 12408 --- [http-nio-8090-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-31 16:45:13.899 DEBUG 12408 --- [http-nio-8090-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [[net.sample.demo.Product@49624431, net.sample.demo.Product@3b10f9cb, net.sample.demo.Product@78c3a4f (truncated)...]
+2020-07-31 16:45:13.979 DEBUG 12408 --- [http-nio-8090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-31 16:46:48.059  INFO 2976 --- [main] net.sample.demo.DemoApplication          : Starting DemoApplication on SARATH with PID 2976 (F:\MyAJIO\Projects\demo\target\classes started by Sarath in F:\MyAJIO\Projects\demo)
+2020-07-31 16:46:48.065  INFO 2976 --- [main] net.sample.demo.DemoApplication          : No active profile set, falling back to default profiles: default
+2020-07-31 16:46:49.121  INFO 2976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-31 16:46:49.220  INFO 2976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83ms. Found 1 JPA repository interfaces.
+2020-07-31 16:46:50.456  INFO 2976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2020-07-31 16:46:50.475  INFO 2976 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-31 16:46:50.475  INFO 2976 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-31 16:46:50.617  INFO 2976 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-31 16:46:50.620  INFO 2976 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2448 ms
+2020-07-31 16:46:50.938  INFO 2976 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-31 16:46:51.023  INFO 2976 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-07-31 16:46:51.336  INFO 2976 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-31 16:46:51.481  INFO 2976 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-31 16:46:52.693  INFO 2976 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-31 16:46:52.738  INFO 2976 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-31 16:46:53.847  INFO 2976 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-31 16:46:53.858  INFO 2976 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-31 16:46:54.378  WARN 2976 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-31 16:46:54.614  INFO 2976 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-31 16:46:54.631 DEBUG 2976 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-31 16:46:54.750 DEBUG 2976 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2020-07-31 16:46:54.795 DEBUG 2976 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-31 16:46:54.816 DEBUG 2976 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-31 16:46:55.024  INFO 2976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2020-07-31 16:46:55.029  INFO 2976 --- [main] net.sample.demo.DemoApplication          : Started DemoApplication in 7.685 seconds (JVM running for 8.437)
+2020-07-31 16:46:59.775  INFO 2976 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-31 16:46:59.776  INFO 2976 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-31 16:46:59.776 DEBUG 2976 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-07-31 16:46:59.790 DEBUG 2976 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-31 16:46:59.790  INFO 2976 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-07-31 16:46:59.814 DEBUG 2976 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/demo/products", parameters={}
+2020-07-31 16:46:59.820 DEBUG 2976 --- [http-nio-8090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.sample.demo.ProductController#getAll()
+2020-07-31 16:47:00.423 DEBUG 2976 --- [http-nio-8090-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-31 16:47:00.424 DEBUG 2976 --- [http-nio-8090-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[net.sample.demo.Product@1e428a73, net.sample.demo.Product@35b24054, net.sample.demo.Product@75fb7e8 (truncated)...]
+2020-07-31 16:47:00.535 DEBUG 2976 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-31 16:49:28.176  INFO 11424 --- [main] net.sample.demo.DemoApplication          : Starting DemoApplication on SARATH with PID 11424 (F:\MyAJIO\Projects\demo\target\classes started by Sarath in F:\MyAJIO\Projects\demo)
+2020-07-31 16:49:28.182  INFO 11424 --- [main] net.sample.demo.DemoApplication          : No active profile set, falling back to default profiles: default
+2020-07-31 16:49:29.254  INFO 11424 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-31 16:49:29.346  INFO 11424 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78ms. Found 1 JPA repository interfaces.
+2020-07-31 16:49:30.590  INFO 11424 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2020-07-31 16:49:30.608  INFO 11424 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-31 16:49:30.608  INFO 11424 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-31 16:49:30.764  INFO 11424 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-31 16:49:30.765  INFO 11424 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2492 ms
+2020-07-31 16:49:31.073  INFO 11424 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-31 16:49:31.175  INFO 11424 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-07-31 16:49:31.487  INFO 11424 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-31 16:49:31.649  INFO 11424 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-31 16:49:32.709  INFO 11424 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-31 16:49:32.810  INFO 11424 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-31 16:49:33.986  INFO 11424 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-31 16:49:33.995  INFO 11424 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-31 16:49:34.550  WARN 11424 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-31 16:49:34.769  INFO 11424 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-31 16:49:34.786 DEBUG 11424 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-31 16:49:34.936 DEBUG 11424 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2020-07-31 16:49:34.979 DEBUG 11424 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-31 16:49:35.001 DEBUG 11424 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-31 16:49:35.332  INFO 11424 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2020-07-31 16:49:35.335  INFO 11424 --- [main] net.sample.demo.DemoApplication          : Started DemoApplication in 7.858 seconds (JVM running for 8.905)
+2020-07-31 16:49:43.705  INFO 11424 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-31 16:49:43.706  INFO 11424 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-31 16:49:43.706 DEBUG 11424 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-07-31 16:49:43.723 DEBUG 11424 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-31 16:49:43.724  INFO 11424 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2020-07-31 16:49:43.757 DEBUG 11424 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/demo/products/1", parameters={}
+2020-07-31 16:49:43.773 DEBUG 11424 --- [http-nio-8090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.sample.demo.ProductController#get(Integer)
+2020-07-31 16:49:44.099 DEBUG 11424 --- [http-nio-8090-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-31 16:49:44.101 DEBUG 11424 --- [http-nio-8090-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [net.sample.demo.Product@68b7f83d]
+2020-07-31 16:49:44.355 DEBUG 11424 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-31 16:50:46.701  INFO 1288 --- [main] net.sample.demo.DemoApplication          : Starting DemoApplication on SARATH with PID 1288 (F:\MyAJIO\Projects\demo\target\classes started by Sarath in F:\MyAJIO\Projects\demo)
+2020-07-31 16:50:46.707  INFO 1288 --- [main] net.sample.demo.DemoApplication          : No active profile set, falling back to default profiles: default
+2020-07-31 16:50:47.717  INFO 1288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-31 16:50:47.809  INFO 1288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78ms. Found 1 JPA repository interfaces.
+2020-07-31 16:50:49.601  INFO 1288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2020-07-31 16:50:49.621  INFO 1288 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-31 16:50:49.621  INFO 1288 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-31 16:50:49.788  INFO 1288 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-31 16:50:49.789  INFO 1288 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2967 ms
+2020-07-31 16:50:50.062  INFO 1288 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-31 16:50:50.195  INFO 1288 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-07-31 16:50:50.510  INFO 1288 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-31 16:50:50.646  INFO 1288 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-31 16:50:51.498  INFO 1288 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-31 16:50:51.540  INFO 1288 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-31 16:50:52.828  INFO 1288 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-31 16:50:52.842  INFO 1288 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-31 16:50:53.325  WARN 1288 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-31 16:50:53.547  INFO 1288 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-31 16:50:53.561 DEBUG 1288 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-31 16:50:53.676 DEBUG 1288 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2020-07-31 16:50:53.721 DEBUG 1288 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-31 16:50:53.742 DEBUG 1288 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-31 16:50:53.943  INFO 1288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2020-07-31 16:50:53.947  INFO 1288 --- [main] net.sample.demo.DemoApplication          : Started DemoApplication in 7.977 seconds (JVM running for 8.892)
+2020-07-31 16:51:03.610  INFO 1288 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-31 16:51:03.610  INFO 1288 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-31 16:51:03.610 DEBUG 1288 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-07-31 16:51:03.621 DEBUG 1288 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-31 16:51:03.622  INFO 1288 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-07-31 16:51:03.639 DEBUG 1288 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/demo/products/1", parameters={}
+2020-07-31 16:51:03.646 DEBUG 1288 --- [http-nio-8090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.sample.demo.ProductController#get(Integer)
+2020-07-31 16:51:03.867 DEBUG 1288 --- [http-nio-8090-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-31 16:51:03.868 DEBUG 1288 --- [http-nio-8090-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [net.sample.demo.Product@5b52bf1c]
+2020-07-31 16:51:03.896 DEBUG 1288 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-31 16:52:49.128  INFO 13200 --- [main] net.sample.demo.DemoApplication          : Starting DemoApplication on SARATH with PID 13200 (F:\MyAJIO\Projects\demo\target\classes started by Sarath in F:\MyAJIO\Projects\demo)
+2020-07-31 16:52:49.134  INFO 13200 --- [main] net.sample.demo.DemoApplication          : No active profile set, falling back to default profiles: default
+2020-07-31 16:52:50.237  INFO 13200 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-31 16:52:50.356  INFO 13200 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 100ms. Found 1 JPA repository interfaces.
+2020-07-31 16:52:51.617  INFO 13200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2020-07-31 16:52:51.666  INFO 13200 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-31 16:52:51.669  INFO 13200 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-31 16:52:51.941  INFO 13200 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-31 16:52:51.941  INFO 13200 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2704 ms
+2020-07-31 16:52:52.283  INFO 13200 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-31 16:52:52.388  INFO 13200 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-07-31 16:52:52.731  INFO 13200 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-31 16:52:52.865  INFO 13200 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-31 16:52:53.674  INFO 13200 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-31 16:52:53.718  INFO 13200 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-31 16:52:54.803  INFO 13200 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-31 16:52:54.813  INFO 13200 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-31 16:52:55.369  WARN 13200 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-31 16:52:55.628  INFO 13200 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-31 16:52:55.644 DEBUG 13200 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-31 16:52:55.776 DEBUG 13200 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2020-07-31 16:52:55.823 DEBUG 13200 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-31 16:52:55.845 DEBUG 13200 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-31 16:52:56.038  INFO 13200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2020-07-31 16:52:56.043  INFO 13200 --- [main] net.sample.demo.DemoApplication          : Started DemoApplication in 7.623 seconds (JVM running for 8.342)
+2020-07-31 16:53:01.762  INFO 13200 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-31 16:53:01.762  INFO 13200 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-31 16:53:01.763 DEBUG 13200 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-07-31 16:53:01.779 DEBUG 13200 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-31 16:53:01.779  INFO 13200 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2020-07-31 16:53:01.799 DEBUG 13200 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/demo/products/1", parameters={}
+2020-07-31 16:53:01.807 DEBUG 13200 --- [http-nio-8090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.sample.demo.ProductController#get(Integer)
+2020-07-31 16:53:02.051 DEBUG 13200 --- [http-nio-8090-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-31 16:53:02.053 DEBUG 13200 --- [http-nio-8090-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [id=1
+ name=one
+ price=100]
+2020-07-31 16:53:02.089 DEBUG 13200 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-31 16:54:13.725 DEBUG 13200 --- [http-nio-8090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/demo/products", parameters={}
+2020-07-31 16:54:13.726 DEBUG 13200 --- [http-nio-8090-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.sample.demo.ProductController#getAll()
+2020-07-31 16:54:14.011 DEBUG 13200 --- [http-nio-8090-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-31 16:54:14.011 DEBUG 13200 --- [http-nio-8090-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [[id=1
+ name=one
+ price=100, id=2
+ name=two
+ price=200, id=3
+ name=three
+ price=3, id=4
+ name=four
+ p (truncated)...]
+2020-07-31 16:54:14.016 DEBUG 13200 --- [http-nio-8090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
